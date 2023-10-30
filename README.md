@@ -2,7 +2,7 @@
 * This reading club mainly focus on the "Applied Conformal Field Theory", and in particular its applications on topics in condensed matter physics.
 ## When and Where
 * Every Friday 2:00 pm, Room 302, Building 7.
-## Reference
+## Main material
 The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-th/9108028). 
 
 ## Some other useful textbooks
