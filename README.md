@@ -9,13 +9,14 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 * The Big Yellow Book
 
 ## Some interesting reference
-
+### Quantum Hall Effect
 * [Moore-Read state](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
 
+### Topological phases
 * [Modular invariance and topological phase](https://arxiv.org/pdf/1202.4484.pdf)
-
+### Etanglement entropy
 * [Universal entropy on Klein bottle](https://arxiv.org/pdf/1707.05812.pdf)
-
+### Statistic models and criticality
 * [3D Ising CFT and Fuzzy Sphere technique](https://journals.aps.org/prx/pdf/10.1103/PhysRevX.13.021009)
 
 * Please add any other papers you find interesting...
