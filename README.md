@@ -18,6 +18,8 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 
 * [3D Ising CFT and Fuzzy Sphere technique](https://journals.aps.org/prx/pdf/10.1103/PhysRevX.13.021009)
 
+* Please add any other papers you find interesting...
+
 ## Schedule
 * 2023.11.03 Section 1 张恒佳
 * 2023.11.10 Section 2 臧云龙
