@@ -26,4 +26,11 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 * 2023.11.03 Section 1 张恒佳
 * 2023.11.10 Section 2 臧云龙
 * TBA
+## Some interesting stuff from Stack Exchange Physics
+* [Does CFT really have conformal symmetry?](https://physics.stackexchange.com/questions/412975/conformal-field-theory-does-not-have-conformal-symmetry)
+* [Wick's theorem and a derivation](https://physics.stackexchange.com/questions/24157/why-how-is-this-wicks-theorem)
+* [Criticality point, or RG fixed point?](https://physics.stackexchange.com/questions/317034/critical-2d-ising-model)
+* [Traceless EM tensor v.s. confromal invariance](https://physics.stackexchange.com/questions/235246/relation-of-conformal-symmetry-and-traceless-energy-momentum-tensor)
+* [why no operator-state correspondence in general QFT?](https://physics.stackexchange.com/questions/88773/operator-state-correspondence-in-qft), see also [this related question](https://physics.stackexchange.com/questions/747918/why-is-the-limiting-operator-in-the-cft-state-operator-correspondence-well-defin).
+* [What is normal ordering (in second quantization context)?](https://physics.stackexchange.com/questions/345898/how-exactly-is-normal-ordering-an-operator-defined?noredirect=1&lq=1)
 
