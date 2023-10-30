@@ -9,9 +9,9 @@
 
 ##Some interesting reference
 
--[Moore-Read state](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
+* [Moore-Read state](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
 
--[Modular invariance and topological phase](https://arxiv.org/pdf/1202.4484.pdf)
+* [Modular invariance and topological phase](https://arxiv.org/pdf/1202.4484.pdf)
 
 -[Universal entropy on Klein bottle](https://arxiv.org/pdf/1707.05812.pdf)
 
