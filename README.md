@@ -24,7 +24,7 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 
 ## Schedule
 * 2023.11.03 Section 1 张恒佳
-* 2023.11.10 Section 2 臧云龙
+* 2023.11.17 Section 2 臧云龙 (Delayed due to conference)
 * TBA
 ## Some interesting stuff from Stack Exchange Physics
 * [Does CFT really have conformal symmetry?](https://physics.stackexchange.com/questions/412975/conformal-field-theory-does-not-have-conformal-symmetry)
