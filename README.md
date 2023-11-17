@@ -8,6 +8,7 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 ## Some other useful textbooks
 * The Big Yellow Book
 * [Lattice gauge theory](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.51.659)
+* [String theory by Polchinski](https://www.cambridge.org/core/books/abs/string-theory/conformal-field-theory/5CA151E88B12C248825A262624ADC7D6)
 ## Some interesting reference
 ### Quantum Hall Effect
 * [Moore-Read state](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
@@ -25,6 +26,11 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 ## Schedule
 * 2023.11.03 Section 1 张恒佳
 * 2023.11.17 Section 2 臧云龙 (Delayed due to conference)
+* 2023.11.24 Section 3 李明阳
+* 2023.12.1 Section 4 朱嘉伟
+* 2023.12.8 Section 5 余光煜
+* 2023.12.15 Section 6 宋洪皓
+* 2023.12.22 Section 7 马奕昕
 * TBA
 ## Some interesting stuff from Stack Exchange Physics
 * [Does CFT really have conformal symmetry?](https://physics.stackexchange.com/questions/412975/conformal-field-theory-does-not-have-conformal-symmetry)
