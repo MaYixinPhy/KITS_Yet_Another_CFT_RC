@@ -25,7 +25,7 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 
 ## Schedule
 * 2023.11.03 Section 1 张恒佳
-* 2023.11.17 Section 2 臧云龙 (Delayed due to conference)
+* 2023.11.17 Section 2 臧云龙 (Delayed due to the conference)
 * 2023.11.24 Section 3 李明阳
 * 2023.12.1 Section 4 朱嘉伟
 * 2023.12.8 Section 5 余光煜
