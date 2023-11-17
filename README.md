@@ -31,7 +31,7 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 * 2023.12.8 Section 5 余光煜
 * 2023.12.15 Section 6 宋洪皓
 * 2023.12.22 Section 7 马奕昕
-* TBA
+* 2023.12.29 Section 8 占俊
 ## Some interesting stuff from Stack Exchange Physics
 * [Does CFT really have conformal symmetry?](https://physics.stackexchange.com/questions/412975/conformal-field-theory-does-not-have-conformal-symmetry)
 * [Wick's theorem and a derivation](https://physics.stackexchange.com/questions/24157/why-how-is-this-wicks-theorem)
