@@ -1,0 +1,146 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+\usepackage{blindtext}
+\usepackage[style=phys]{biblatex}
+\addbibresource{entangle.bib}
+ \usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{Keyword  } #1
+}
+\usepackage{amsthm}
+\usepackage{mathtools} 
+\usepackage{tikz-cd} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{conjecture}{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newcommand{\uaw}{\uparrow}
+\newcommand{\daw}{\downarrow}
+\newcommand{\non}{\nonumber}
+\newcommand{\lag}{\langle}
+\newcommand{\rag}{\rangle}
+\newcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\igg}{\mathrm{IGG}}
+\newcommand{\todo}[1]{{\color{red} TODO: #1}}
+\newcommand{\warn}[1]{{\color{red} WARNING: #1}}
+\newcommand{\pmu}{\partial_{\mu}}
+\newcommand{\pnu}{\partial_{\nu}}
+\newcommand{\pro}{\partial_{\rho}}
+%++++++++++++++++++++++++++++++++++++++++
+
+\begin{document}
+
+\title{Note on CFT issues}
+\author{Reading Club KITS}
+\date{\today}
+\maketitle
+
+\onehalfspacing
+\section{Setup}
+In this note we will record some subtle issues when reading Paul Ginsparg's Applied Conformal Field Theory. This material may help you pick up the key points quickly and get rid of verbose calculations and puzzles when reviewing it.
+%Namely, we first tensor product phase A labeled by $(n^{a}_{0},n^{a}_{1},\nu^{a}_{2})$ and phase B labeled by $(n^{b}_0,n^{b}_{1},\nu^{b}_{2})$.
+
+\section{Section 1}
+\subsection{Derivation of Eq.(1.3)}
+We denote $\frac{2}{d}(\partial\cdot\epsilon)$ as $f$.
+First notice that
+\begin{align}
+\partial_{\mu}\epsilon_{\nu}+\partial_{\nu}\epsilon_{\mu}&=\frac{2}{d}(\partial\cdot \epsilon)\eta_{\mu\nu}\\    2\pmu\pnu\epsilon_{\rho}&=\pmu\pnu\epsilon_\rho+\pnu\pmu\epsilon_{\rho}\\
+    &=\pmu\left[\pnu\epsilon_{\rho} \right]+\pnu\left[\pmu\epsilon_{\rho} \right]\\
+    &=\pmu[\eta_{\rho\nu}f-\pro\epsilon_\nu]+\pnu[\eta_{\mu\rho}f-\pro\epsilon_{\mu}]\\
+    &=\pmu\eta_{\rho\nu}f+\pnu\eta_{\mu\rho}f-\pro\eta_{\mu\nu}f
+\end{align}
+So we have
+\begin{align}
+\eta_{\mu\nu}\partial_{\mu}\epsilon_{\nu}+\partial_{\nu}\epsilon_{\mu}=2\partial^2\epsilon_{\rho}&=(2-d)\pro f\\
+2\partial^{2}\pnu \epsilon_{\mu}&=(2-d)\pmu\pnu f\\
+2\partial^2\eta_{\mu\nu}\frac{1}{d}(\partial\cdot\epsilon)&=(2-d)\frac{2}{d}\pmu\pnu (\partial\cdot\epsilon)\\
+(\eta_{\mu\nu} \square +(d-2)\pmu\pnu)\partial\cdot\epsilon&=0
+\end{align}
+\subsection{The form of $\Omega(x)$, local and global}
+We adopt the following definition of $\Omega(x)$
+\begin{align}
+    g_{\mu\nu}(x)&=\frac{\partial x'^{\alpha}}{\partial x^{\mu}}\frac{\partial x'^{\beta}}{\partial x^{\nu}}g^{'}_{\alpha\beta}(x')\\
+    &=\Omega(x)\frac{\partial x'^{\alpha}}{\partial x^{\mu}}\frac{\partial x'^{\beta}}{\partial x^{\nu}}g_{\alpha\beta}(x)
+\end{align}
+\subsection{2D case}
+In 2$D$ case, we have (by looking at $(1,1)$ and $(1,2)$ component)
+\begin{align}
+    2\partial_{1}\epsilon_{1}&=\partial_1\epsilon_1+\partial_2\epsilon_2\\
+    \partial_1\epsilon_2+\partial_2\epsilon_1&=0
+\end{align}
+\subsection{Complex v.s. real dictionary}
+If we define $z=x+iy$, $\bar{z}=x-iy$, then
+\begin{align}
+    \partial_z&=\frac{\partial}{\partial x}\frac{\partial x}{\partial z}+\frac{\partial}{\partial y}\frac{\partial y}{\partial z}\\
+    &=\frac{1}{2}(\partial_x-i\partial_y)\\
+    \partial_{\bar{z}}&=\frac{1}{2}(\partial_x+i\partial_y)
+\end{align}
+And the metric becomes
+\begin{align}
+    g_{z\bar{z}}&=\sum_{ij}\frac{\partial x^{i}}{\partial z}\frac{x^{j}}{\partial{\bar{z}}}g_{ij}\\
+    &=\frac{1}{2}=g_{\bar{z}z}\\
+    g^{z\bar{z}}&=2=g^{\bar{z}z}
+\end{align}
+
+\subsection{2D Global conformal transformation v.s. Local conformal transformation}
+From Laurent expansion we can get generators of infinitesimal conformal transformations
+\begin{align}
+    l_{n}=-z^{n+1}\partial_{z} & {} & \bar{l}_{n}=-\bar{z}^{n+1}\partial_{\bar{z}}
+\end{align}
+But not all of them are well-defined in the whole complex plane. More precisely,
+\begin{itemize}
+    \item For $n\geq 1$, $l_{n}$ is not well defined when $z\to0$.
+    \item For $n\leq -1$, $l_{n}$ is not well defined when $z\to\infty$.
+\end{itemize}
+Thus, only $l_{0},l_{\pm1}$ and $\bar{l}_{0},\bar{l}_{\pm1}$ can generate globally well-defined conformal transformations. Their linear combination gives generators of translation, rotation, dilation and special conformal transformation. 
+
+\subsection{The number of independent cross ratios (Or the independent degree of freedom in correlation functions)}
+For $N$ points, we can use translation to move one particle to original point. Then the left $N-1$ points and the original point form a $N-1$ dimensional subspace. And there are $(N-1)^2$ degree of freedom. In this space we can preform rotation, dilation and SCT relative to the original point. They have $1+(N-1)+(N-1)(N-2)/2$ (scale, SCT, rotation) parameters. Thus only
+\begin{align}
+    (N-1)^2-[1+(N-1)+(N-1)(N-2)/2]=N(N-3)/2
+\end{align}
+degrees of freedom are independent in correlation functions of quasi-primary fields.
+\subsection{Derivation of Eqn.(1.14)}
+We denote $x^2b^2+2b\cdot x+1=f(x)$.
+\begin{align}
+    (x'^{\mu}_{1}-x'^{\mu}_2)(x'_{1\mu}-x'_{2\mu})&=\frac{x^2_1}{f(x_1)}+\frac{x^2_2}{f(x_2)}-\frac{2}{f(x_1)f(x_2)}(x_1\cdot x_2+x_2^2 b\cdot x_1+x_1^2 b\cdot x_2+b^2 x_1^2x_2^2)\\
+    &=\frac{1}{f(x_1)f(x_2)}\left[ x^2_1+x_2^2-2x_1x_2 \right]
+\end{align}
+
+\subsection{Relation between different constrains on conformal transformation}
+There are 4 form of constrains on conformal transformation ($f$ denotes $\frac{2}{d}\partial\cdot\epsilon$) :
+\begin{align}
+   \pmu\epsilon_\nu+\pnu\epsilon_\mu&=f\eta_{\mu\nu} \tag{*}\\
+   2\pmu\pnu\epsilon_{\rho}&=\eta_{\mu\rho}\pnu f+\eta_{\nu\rho}\pmu f-\eta_{\mu\nu}\partial_{\rho} f \tag{$\star$}\\
+   (\eta_{\mu\nu}\partial^2 +(d-2)\partial_{\mu}\partial_{\nu})f&=0 \tag{$\Box$} \\
+   (d-1)\partial^2 f&=0 \tag{$\Diamond$}
+\end{align}
+Their relationship can be shown by the following diagram
+\begin{center}
+\begin{tikzcd}
+        (*) \arrow[r,"\partial_{\rho}"] & (\star) \arrow[r,"\pnu"] & (\Box)\arrow[r,"\eta_{\mu\nu}"]  & (\Diamond) 
+ \end{tikzcd}
+\end{center} 
+\printbibliography
+\end{document}
