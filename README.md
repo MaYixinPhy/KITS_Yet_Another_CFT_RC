@@ -13,8 +13,9 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 ### Quantum Hall Effect
 * [Moore-Read state](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
 
-### Topological phases
+### Topological phases and anyons
 * [Modular invariance and topological phase](https://arxiv.org/pdf/1202.4484.pdf)
+* [Golden chain](https://arxiv.org/pdf/cond-mat/0612341.pdf)
 ### Etanglement entropy, c-theorem, etc.
 * [Entanglement and QFT](https://arxiv.org/pdf/hep-th/0405152.pdf)
 * [Universal entropy on Klein bottle](https://arxiv.org/pdf/1707.05812.pdf)
