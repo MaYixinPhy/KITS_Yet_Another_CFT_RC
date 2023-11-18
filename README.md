@@ -16,6 +16,7 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 ### Topological phases and anyons
 * [Modular invariance and topological phase](https://arxiv.org/pdf/1202.4484.pdf)
 * [Golden chain](https://arxiv.org/pdf/cond-mat/0612341.pdf)
+* [Topological Defects](https://arxiv.org/pdf/1701.02800.pdf)
 ### Etanglement entropy, c-theorem, etc.
 * [Entanglement and QFT](https://arxiv.org/pdf/hep-th/0405152.pdf)
 * [Universal entropy on Klein bottle](https://arxiv.org/pdf/1707.05812.pdf)
