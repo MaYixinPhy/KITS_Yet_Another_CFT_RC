@@ -29,11 +29,12 @@ The main material is [Applied Conformal Field Theory](https://arxiv.org/abs/hep-
 * 2023.11.03 Section 1 张恒佳
 * 2023.11.17 Section 2 臧云龙 (Delayed due to the conference)
 * 2023.11.24 Section 3 李明阳
-* 2023.12.1 Section 4 朱嘉伟
-* 2023.12.8 Section 5 余光煜
-* 2023.12.15 Section 6 宋洪皓
-* 2023.12.22 Section 7 马奕昕
-* 2023.12.29 Section 8 占俊
+* 2023.12.1 Section 3 part 2 TBD
+* 2023.12.8 Section 4 朱嘉伟
+* 2023.12.15 Section 5 余光煜
+* 2023.12.22 Section 6 宋洪皓
+* 2023.12.29 Section 7 马奕昕
+* 2024.1.5 Section 8 占俊
 ## Some interesting stuff from Stack Exchange Physics
 * [Does CFT really have conformal symmetry?](https://physics.stackexchange.com/questions/412975/conformal-field-theory-does-not-have-conformal-symmetry)
 * [Wick's theorem and a derivation](https://physics.stackexchange.com/questions/24157/why-how-is-this-wicks-theorem)
